@@ -1,0 +1,58 @@
+/**Que es CSS**/
+/* Para poder ver reflejado mis estilos en mi paguna web debemos vincular mi archivo.css en mi .html */
+/* Es un motor de estilos muy potente */
+/* se acostumbre a tener un estilo global para quitarle el padding e el margin a un apagina web */
+/* padding: Es el espacio interno de un elemento */
+/* margin: Es el espacio externo de un elemento */
+
+/* Se recomienda solo manejar el margin, padding y border-box */ 
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Que etiqueta debo usar si quiero aplicar un estilo a todo mi body */
+body{
+    /* font-family: Es el atributo que me permite cambiar el tipo de letra */
+    /* Actualmente las computadors viene con el tipo de letra instalado */
+    /* Los tipos de letra estan instalados en sus computadoras */
+    /* Monsetrat: Es un tipo de letra que no esta instalado, para poder usar un tipo de letra  externo podemos descargarlo y agregarlo al proyecto como un archivo o usar un link de referencia */
+    /* Hay algunas fuentes (tipos de letra) que necesitan estar entre comillas, por */
+    /* Uno puede anidar tipo de letra */
+    font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+}
+
+/* Ahora vamos a ver como aplicar a una etiqueta especial */
+/* quiera que mi h1 sea de color rojo */
+
+h1 {
+    /* color: Es el color de los textos */
+    color: #070;
+    /* Background-color: Es el color de fondo de un elemento */
+    background-color: #000;
+    /* font-weight: Esto  es para poder asignarle un peso a las letras */
+    /* Esta en el rango de 100-900, pero tambien la propiedad bold, es para el texto negrita */
+    font-weight: bold;
+}
+
+section {
+    background-color: yellow;
+    /* border: es una propiedad para poner un borde a un elemento, border recibe 3 cosas:
+    tamaño de pixel, color, tipo de línea */
+    border: solid #000 3px;
+}
+
+/* Como accede a un elemento */
+section article p {
+    color: #000;
+    /* text-align */
+    text-align: center;
+}
+
+/* Como se accede a un elemento hijo */
+/* Para poder acceder a un elemento en cascada puede anidar las etiquetas */
+/* Busca al elemento article y dentro de este debe de estar el p */
+
+
+/* Como puedo hacer que mis li sean verdes? */

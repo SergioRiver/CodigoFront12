@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJEMPLO 1</title>
+</head>
+<body>
+    <header>
+        <h1>EJEMPLO 1</h1>
+        
+    </header>
+    <H4>Los campos marcados con * son obligatorios</H4>
+    <table border="0">
+       <tr>
+           <td>Asunto:</td>
+           <td>
+               <input type="text" placeholder="" value="" name="asunto" maxlength="15" min="5" />
+            </td>
+       </tr>
+       <tr>
+           <td>*Primer Apellido:</td>
+           <td>
+            <input type="text" placeholder="" value="" name="apellido1" maxlength="15" min="5" />
+           </td>
+       </tr>
+       <tr>
+           <td>Segundo Apellido:</td>
+           <td>
+            <input type="text" placeholder="" value="" name="apellido2" maxlength="15" min="5" /> 
+           </td>
+       </tr>
+       <tr>
+           <td>*Nombre:</td>
+           <td>
+            <input type="text" placeholder="" value="" name="nombre" maxlength="15" min="5" />   
+           </td>
+       </tr>
+       <tr>
+           <td>D.N.I. / Pasaporte / N.I.E:</td>
+           <td>
+            <input type="number" placeholder="" name="numero"/>  
+           </td>
+       </tr>
+       <tr>
+        <td>*Correo Electrónico</td>
+        <td>
+            <input type="email" placeholder="" name="email" required/>   
+        </td>
+    </tr>
+    <tr>
+        <td>Teléfono</td>
+        <td>
+            <input type="text" placeholder="" value="" name="telefono" maxlength="15" min="5" />   
+        </td>
+    </tr>
+    <tr>
+        <td>¿Sobre qué?</td>
+        <td>
+            <select name="sobre_que">
+                <option value="nada">NADA</option>
+                <option value="algo">ALGO</option>
+                <option value="poco">POCO</option>
+                <option value="ninguno">NINGUNO</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>¿Que va a escribir?</td>
+        <td>
+            <select name="sobre_que">
+                <option value="opcion_1">Una oración</option>
+                <option value="opcion_2">Una frase</option>               
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Texto del escrito:</td>
+        <td>
+            <input type="text" placeholder="" value="" name="asunto" maxlength="35" min="20" />
+        </td>
+    </tr>
+    </table>
+    <h5>Los datos personales facilitados son suceptibles de sesión cuando ésta sea precisada para tramitar su contestación</h5>
+    <button>Entrar</button>
+</body>
+</html>
